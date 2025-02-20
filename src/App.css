@@ -19,6 +19,12 @@ body, #root {
 /* Header styles */
 h1 {
   margin: 20px 0 0;
+  font-size: 3rem;
+  margin-bottom: 100px;
+}
+
+p {
+  font-size: 1.5rem;
 }
 
 /* Main game container styles */
@@ -47,7 +53,7 @@ h1 {
 .wrong-letters-container {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 105px;
   display: flex;
   flex-direction: column;
   text-align: right;
@@ -143,4 +149,17 @@ h1 {
 /* Notification container animation styles */
 .notification-container.show {
   transform: translateY(-50px);
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    margin-left: 30px;
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-size: 0.9rem;
+    margin-left: 37px;
+  }
 }

@@ -9,7 +9,24 @@ import { showNotification as show } from "./Helpers";
 
 import "./App.css";
 
-const words = ["application", "programming", "interface", "wizard"];
+const words = [
+  "application",
+  "programming",
+  "interface",
+  "wizard",
+  "engineer",
+  "technology",
+  "javascript",
+  "backend",
+  "frontend",
+  "software",
+  "coding",
+  "bootcamp",
+  "developer",
+  "debugging",
+  "deploy",
+  "project",
+];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
 function App() {

@@ -7,6 +7,8 @@ const Header = () => {
       <h1>Hangman</h1>
       {/* <!-- Instruction for the Player --> */}
       <p>Find the hidden word - Enter a letter</p>
+      <br />
+      <p>⭐ Hint!!! All words used in this game are tech-related. ⭐</p>
     </>
   );
 };
